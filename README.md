@@ -1,4 +1,4 @@
-### Myocardial Echocardiography Dataset (MCE) for effort prediction
+### Myocardial Contrast Echocardiography (MCE) Dataset for effort prediction
 
 This overall dataset was created from real clinial exams acquired at Guangdong Provincial People’s Hospital. Acquired data were fully anonymized. Our dataset contains MCE sequences of A4C chamber from 130 patients, each sequence contains 30 frames isometrically sampled from the raw DICOM file, all images are center cropped to a fixed dimension 512x512. The dataset consists of both CAD and healthy subjects, whose diagnosis results are extracted from clinical medical cases (though the diagnositic label is not given). MCE sequences of all subjects are collected by an ultrasonography system (Philips 7C and iE ELITE，Philips Medical Systems, Best, Netherlands) equipped with a broadband transducer, and SonoVue (Bracco Research SA, Geneva, Switzerland) as the contrast agent.
 
