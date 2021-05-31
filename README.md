@@ -4,6 +4,8 @@ This overall dataset was created from real clinial exams acquired at Guangdong P
 
 The dataset can be divided into two parts. The first part is from subject_000 to subject_099, only one MCE sequence exist for each subject. The frames of these 100 subjects are annotated by an experienced cardiologist using [Labelme](https://github.com/wkentaro/labelme) tool. This part is used for training our segmentation network and effort prediction network in our paper. The second part is from subject_100 to subject_129, more than one MCE sequence exist for each subject. The frames in this part do not have segmentation annotation, they are used for testing the performance of our effort prediction network. 
 
+Our dataset is available at https://drive.google.com/drive/folders/1IG5Fsw98dKDnR_jawdJyDc90VmO5G3CX?usp=sharing
+
 If you used our dataset, please consider to cite our paper "Towards Efficient Human-Machine Collaboration: Real-Time Correction Effort Prediction for Ultrasound Data Acquisition".
 
 Some examples are shown below.
